@@ -1,0 +1,218 @@
+/* styles.css */
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Isso garante que o contêiner ocupe 100% da altura da tela */
+    width: 100vw;
+  }
+  
+  form {
+    width: 100%;
+    padding: 50px;
+    border-radius: 16px;
+    box-shadow: 20px 20px 20px rgb(27, 26, 26);
+    background-color:snow;
+    height: 80%;
+  }
+
+  .imagem{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    justify-content: center;   
+  }
+  
+  .imagem label{
+    align-items: center;
+    width: fit-content;
+    height: 100%;
+    font-weight: 800;
+    font-size: 150px;
+    font-family: 'Smooch Sans', sans-serif; 
+    
+  }   
+
+  .divisao-label{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    align-items: center;
+  }
+
+  .left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: start;
+    align-items: center;
+    height: 100% !important;
+    justify-content: space-between;
+  }
+
+  .right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .bibliotecas{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Smooch Sans', sans-serif;
+    font-weight: 800;
+    width: 100%;
+  }
+
+  .grupoTipoAuto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Smooch Sans', sans-serif;
+    font-weight: 800;
+    width: 100%;
+  }
+
+  .divAutoIT{
+    padding: 15%;
+    background-color: #2678ec;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Smooch Sans', sans-serif;
+  }
+
+  .divAutoIT:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #0056b3;
+  }
+
+  .divSelenium{
+    padding: 15%;
+    background-color:#2678ec;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Smooch Sans', sans-serif;
+  }
+
+  .divSelenium:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #0056b3;
+  }
+
+  .divClickAutoIT{
+    color: white;
+    background-color: #007bff;
+  }
+  .divClickSelenium{
+    color: white;
+    background-color: #007bff;
+  }
+
+  .logo{
+    width: 50px;
+    height: 50px;
+  }
+
+  .divTipoAuto{
+    padding: 15%;
+    background-color: #2678ec;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Smooch Sans', sans-serif;
+    font-weight: 800;
+  }
+
+  .divTipoAuto:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #0056b3;
+  }
+
+  .input-biblioteca{
+    transition: background-color .1s linear, color 1s
+    linear;
+    display: none;
+  }
+
+  .input-tipoAutomacao{
+    transition: background-color .1s linear, color 1s
+    linear;
+  }
+
+ .tipoAutomacao{
+  background-color:#007bff00 ;
+
+ }
+
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Smooch Sans', sans-serif;
+    font-weight: 800;
+    width: 100px;
+    align-items: center;
+  }
+
+  .right label{
+    font-size: 15px;
+    display: flex;
+    justify-content: left;
+  }
+
+  .divSelenium label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .divAutoIT label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .divTipoAuto label{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .left input{
+    border-color: rgba(255, 250, 250, 0);
+    border-bottom: solid #007bff;
+    outline-color: rgba(255, 250, 250, 0);
+    width: 85%;
+    height: 70px;
+    font-size: 25px;
+    font-family: 'Smooch Sans', sans-serif;
+    background-color:#ffffff00    
+  }
+
+  .left ::placeholder{
+    color: black;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+html { font-size: 100%; height: 100%; }
+body { height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; background-color: #3e8fcc; margin: 0}
+.wrapper { width: 100%; max-width: 35rem; }
