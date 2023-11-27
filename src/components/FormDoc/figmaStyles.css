@@ -215,8 +215,9 @@ form{
     justify-content: center;
 }
 
-.labelDownload label:hover{
+.botaoDownload:hover{
     border: 2px solid #fff;
+    cursor: pointer;
 }
 
 .labelDownload label:active{
